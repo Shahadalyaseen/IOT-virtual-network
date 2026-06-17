@@ -1,0 +1,117 @@
+/* === Global Theme (Dark Cyber Security Theme) === */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #0E1116; /* Darkest bg */
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card {
+    background: #1A1F25;
+    padding: 35px;
+    width: 360px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0,0,0,0.4);
+    border: 1px solid #2A3642;
+}
+
+.card img {
+    width: 110px;
+    margin-bottom: 12px;
+}
+
+.card h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #2AB8FF; /* Accent color */
+}
+
+input[type="text"], input[type="password"]{
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 15px;
+    border: none;
+    border-radius: 6px;
+    background: #2A3642;
+    color: white;
+    outline: none;
+}
+
+input[type="text"]::placeholder,
+input[type="password"]::placeholder {
+    color: #B8C1CC;
+    font-size: 13px;
+}
+
+button, input[type="submit"] {
+    background: #2AB8FF;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+button:hover, input[type="submit"]:hover {
+    background: #0B4D71;
+    color: white;
+}
+
+.error-msg {
+    background: #FF4C4C;
+    padding: 8px;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+.success-msg {
+    background: #1BB65B;
+    padding: 8px;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+.auth-link {
+    text-align: center;
+    margin-top: 15px;
+    color: white;
+    font-size: 14px;
+}
+
+.auth-link a {
+    color: #35b6ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.auth-link a:hover {
+    text-decoration: underline;
+}
+
+.success-msg {
+    background-color: #28a745;
+    color: white;
+    padding: 12px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    text-align: center;
+}
